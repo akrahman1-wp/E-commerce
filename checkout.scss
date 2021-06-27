@@ -1,0 +1,124 @@
+@import 'variables';
+@import 'reset';
+
+.checkout{
+    padding: 50px 0px;
+}
+.bor{
+    border-right: 1px solid gray;
+
+}
+.checkout h1{
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.checkout h4{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.inline{
+    display: inline-block;
+}
+.pagi span, p{
+    font-size: 13px;
+    padding: 0px 4px;
+    padding-bottom: 30px;
+}
+h4 .inline{
+    font-size: 13pxs;
+}
+.right {
+	text-align: right;
+	margin-left: 188px;
+}
+.checkout input[type="email"]{
+    padding: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.342);
+    border-radius: 6px;
+    width: 85%;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+form input{
+    padding: 15px;
+    width: 83%;
+    margin: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    border-radius: 6px;
+}
+.two{
+    display: flex;
+}
+.left{
+    width: 48%;
+}
+.right2 {
+	width: 48%;
+
+	margin-left: -35px;
+}
+
+select{
+    padding: 15px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.39);
+    background-color: #ffff;
+    font-size: 14px;
+    color: black;
+    width: 80%;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+option{
+    background-color: #fff;
+    color: gray;
+}
+.stop{
+    display: inline !important;
+    width: 30px;
+}
+.btn a{
+    background-color: #197BBD;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.self{
+    align-items: flex-start !important;
+}
+.bge{
+    padding: 20px;
+}
+.bge span{
+    font-size: 14px;
+}
+.border {
+	border-bottom: 1px solid rgba(128, 128, 128, 0.459);
+	padding-top: 20px;
+    padding-left: 10px;
+	align-items: center !important;
+}
+.border h3{ 
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.start {
+	align-self: flex-start;
+}
+.big{
+    font-size: 24px !important;
+}
+
+.footer{
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: -140px;
+    border-top: 1px solid gray;
+}

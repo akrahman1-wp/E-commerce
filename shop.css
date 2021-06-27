@@ -1,0 +1,448 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  color: gray;
+}
+
+span {
+  color: black;
+}
+
+ul li {
+  list-style: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.between {
+  padding: 10px 0px;
+  background-color: #F2F7FD;
+}
+
+.header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+span {
+  display: inline-block;
+  font-size: 14px;
+}
+
+p {
+  display: inline-block;
+  font-size: 14px;
+}
+
+a {
+  font-size: 16px;
+}
+
+.contact {
+  padding-right: 20px;
+}
+
+.offer {
+  text-align: center;
+}
+
+.language {
+  text-align: right;
+}
+
+.dis {
+  color: tomato;
+}
+
+.col {
+  color: black;
+}
+
+nav {
+  padding: 20px 0px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.246);
+}
+
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.menu ul li {
+  padding: 0px 15px;
+}
+
+.menu ul li a {
+  color: black;
+}
+
+.icons {
+  text-align: right;
+}
+
+.icons span {
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+.bg {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/big-slider_1512x.png);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid rgba(73, 73, 73, 0.219);
+}
+
+.row.cn {
+  height: 400px;
+}
+
+.contents {
+  width: 60%;
+}
+
+.contents h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contents h1 {
+  font-size: 3.7rem;
+  font-weight: 600;
+}
+
+.contents h3 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.btn a {
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #222222;
+  border-radius: 25px;
+}
+
+.bottom ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 11px 0px;
+  border-bottom: 1px solid rgba(73, 73, 73, 0.219);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.bottom ul li {
+  padding: 0px 10px;
+}
+
+.color {
+  color: skyblue;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 0px;
+  background-image: url(img/jeans-828693_1920_1512x.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  z-index: 99;
+}
+
+.hero span {
+  color: #ffff;
+}
+
+.hero:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.575);
+  z-index: -1;
+}
+
+.filters {
+  padding: 50px 0px;
+}
+
+.filters span {
+  font-size: 20px;
+}
+
+.filters p {
+  font-size: 14px;
+}
+
+.filter {
+  text-align: right;
+}
+
+select {
+  padding: 10px 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.39);
+  background-color: #ffff;
+  font-size: 1rem;
+  color: gray;
+}
+
+option {
+  background-color: #fff;
+  color: gray;
+}
+
+option:hover {
+  background-color: #fff;
+  color: skyblue;
+}
+
+.products {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.397);
+}
+
+.product {
+  padding: 30px 20px;
+  position: relative;
+}
+
+.product span {
+  color: red;
+}
+
+.product h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+del {
+  color: gray;
+  padding-right: 20px;
+}
+
+.cn {
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.sale {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  background-color: #0063D1;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.pagination {
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.pagination span {
+  padding: 0px 20px;
+}
+
+footer {
+  padding: 60px 0px;
+  background-color: #F6F6F8;
+}
+
+footer h3 {
+  display: inline-block;
+  font-weight: 600;
+  padding: 35px 10px;
+}
+
+footer span {
+  font-size: 25px;
+}
+
+.inline {
+  display: inline;
+  margin-bottom: 20px;
+}
+
+footer h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+address {
+  padding: 15px 0px;
+}
+
+footer ul {
+  padding: 0px 20px;
+}
+
+footer ul li {
+  padding: 5px 0px;
+  font-size: 15px;
+  color: gray;
+}
+
+.mt2 {
+  margin: 25px 0px;
+}
+
+.footer {
+  padding: 20px 0px;
+}
+
+.footer span {
+  text-align: right;
+  display: inline-block;
+  padding: 0px 10px;
+  color: gray;
+}
+
+.right {
+  text-align: right;
+}
+
+.color {
+  color: #0063D1 !important;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 18px 19px;
+  border: 1px solid rgba(0, 0, 0, 0.644);
+  background-color: transparent;
+  border-radius: 30px;
+  font-size: 14px;
+  margin: 12px 0px;
+}
+
+input[type="button"] {
+  padding: 14px 26px;
+  background-color: black;
+  border-radius: 25px;
+  color: #ffff;
+  border: none;
+  margin-left: -116px;
+}
+/*# sourceMappingURL=shop.css.map */

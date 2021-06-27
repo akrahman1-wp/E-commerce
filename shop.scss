@@ -1,0 +1,287 @@
+@import 'variables';
+@import 'reset';
+
+// header section
+
+.between{
+    padding: 10px 0px;
+    background-color: #F2F7FD;
+}
+.header-top{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    flex-wrap: wrap;
+}
+span{
+    display: inline-block;
+    font-size: $main-font-size;
+}
+p{
+    display: inline-block;
+    font-size: $main-font-size;
+}
+a{
+    font-size: $third-font-size;
+}
+.contact{
+    padding-right: 20px;
+}
+.offer{
+    text-align: center;
+}
+.language{
+    text-align: right;
+}
+.dis{
+    color: tomato;
+}
+.col{
+    color: black;
+}
+
+// Navigation
+nav{
+    padding: 20px 0px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.246);
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+.menu ul li{
+    padding: 0px 15px;
+}
+.menu ul li a{
+    color: black;
+}
+.icons{
+    text-align: right;
+}
+.icons span{
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.bg{
+    width: 100%;
+    height: 400px;
+    background-image: url(img/big-slider_1512x.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid rgba(73, 73, 73, 0.219);
+}
+.row.cn {
+	height: 400px;
+}
+.contents {
+    width: 60%;
+}
+.contents h4{
+    font-size: $second-font-size;
+    font-weight: 500;
+}
+.contents h1{
+    font-size: 3.7rem;
+    font-weight: 600;
+}
+.contents h3{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.btn{
+    margin-top: 20px;
+}
+.btn a{
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #222222;
+    border-radius: 25px;
+}
+
+.bottom ul{
+    display: flex;
+    padding: 11px 0px;
+    border-bottom: 1px solid rgba(73, 73, 73, 0.219);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bottom ul li{
+    padding: 0px 10px;
+}
+.color{
+    color: skyblue;
+}
+
+.hero{
+    text-align: center;
+    padding: 60px 0px;
+    background-image: url(img/jeans-828693_1920_1512x.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+    z-index: 99;
+}
+.hero span{
+    color: #ffff;
+}
+.hero:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.575);
+    z-index: -1;
+}
+
+// filter section
+.filters{
+    padding: 50px 0px;
+}
+.filters span{
+    font-size: 20px;
+}
+.filters p{
+    font-size: $main-font-size;
+}
+.filter{
+    text-align: right;
+}
+select{
+    padding: 10px 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.39);
+    background-color: #ffff;
+    font-size: 1rem;
+    color: gray;
+}
+option{
+    background-color: #fff;
+    color: gray;
+}
+option:hover{
+    background-color: #fff;
+    color: skyblue;
+}
+
+// best selling
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: 1fr 1fr 1fr;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.397);
+}
+.product {
+    padding: 30px 20px;
+    position: relative;
+}
+.product span{
+    color: red;
+}
+.product  h2{
+    font-size: $third-font-size;
+    font-weight: 500;
+}
+del{
+    color: gray;
+    padding-right: 20px;
+}
+.cn{
+    text-align: center;
+    padding: 50px 0px;
+}
+.sale{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    background-color: #0063D1;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.pagination{
+    padding: 20px 0px;
+    text-align: center;
+}
+.pagination span{
+    padding: 0px 20px;
+}
+
+// footer
+footer{
+    padding: 60px 0px;
+    background-color: #F6F6F8;
+}
+footer h3{
+    display: inline-block;
+    font-weight: 600;
+    padding: 35px 10px;
+}
+footer span{
+    font-size: 25px;
+}
+.inline{
+    display: inline;
+    margin-bottom: 20px;
+}
+footer h2{
+    font-size: $third-font-size;
+    font-weight: 400;
+}
+address{
+    padding: 15px 0px;
+}
+footer ul{
+    padding: 0px 20px;
+}
+footer ul li{
+    padding: 5px 0px;
+    font-size: 15px;
+    color: gray;
+}
+.mt2{
+    margin: 25px 0px;
+}
+.footer{
+    padding: 20px 0px;
+}
+.footer span{
+    text-align: right;
+    display: inline-block;
+    padding: 0px 10px;
+    color: gray;
+}
+.right{
+    text-align: right;
+}
+.color{
+    color: #0063D1 !important;
+}
+input[type="email"] {
+	width: 100%;
+	padding: 18px 19px;
+	border: 1px solid rgba(0, 0, 0, 0.644);
+	background-color: transparent;
+	border-radius: 30px;
+	font-size: 14px;
+	margin: 12px 0px;
+}
+input[type="button"] {
+	padding: 14px 26px;
+	background-color: black;
+	border-radius: 25px;
+	color: #ffff;
+	border: none;
+	margin-left: -116px;
+}
